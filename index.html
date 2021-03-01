@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="book finder">
+    <meta name="description" content="a book finder web app using vanilla Javascript and google API">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script lang="Javascript" defer src="clock.js"></script>
+    <script lang="Javascript" defer src="script.js"></script>
+    <title>book finder</title>
+</head>
+<body>
+    <div class="dgclock" id="clock">8:10:45</div> 
+        <p>find my book</p>
+        <input type="text" id="inputText" onkeyup="searchBook()" placeholder="Search here......">
+
+        <table id="myTable">
+          <tr class="header">
+            <th style="width:40%;">Title</th>
+            <th style="width:30%;">Author</th>
+            <th style="width:30%;">Publisher</th>
+          </tr>
+          <tr>
+            <td>to catch a predator</td>
+            <td>Arnold Marlow</td>
+            <td>Penguin</td>
+          </tr>
+          <tr>
+            <td>mockingbird</td>
+            <td>James Pattinson</td>
+            <td>Hutchinson</td>
+          </tr>
+          <tr>
+            <td>python for dummies</td>
+            <td>J. J. Bright</td>
+            <td>Wiley</td>
+          </tr>
+          <tr>
+            <td>Family Guy</td>
+            <td>Seth MacFarlane</td>
+            <td>Fox</td>
+          </tr>
+          <tr>
+            <td>American Dad</td>
+            <td>Seth Something</td>
+            <td>fox Tv</td>
+          </tr>
+          <tr>
+            <td>The Invisible Man</td>
+            <td>H.G. Wells</td>
+            <td>Penguin</td>
+          </tr>
+        </table>
+</body>
+</html>
